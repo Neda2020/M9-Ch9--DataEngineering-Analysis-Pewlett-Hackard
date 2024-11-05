@@ -12,7 +12,9 @@ Project Structure
 Entity Relationship Diagram (ERD): The project began with an inspection of the provided CSV files, followed by designing an ERD to outline the relationships between tables. The ERD was created using QuickDBD.
 
 ![ERD Data's Pewlett Hackard](https://github.com/user-attachments/assets/c29e042f-f0ad-4a5b-9890-c061bc1bd81f)
-[ERD Data's Pewlett Hackard.pdf](https://github.com/user-attachments/files/17622492/ERD.Data.s.Pewlett.Hackard.pdf)
+
+[ERD Data's Pewlett Hackard.pdf]
+(https://github.com/user-attachments/files/17622492/ERD.Data.s.Pewlett.Hackard.pdf)
 
 
 2. Data Engineering
@@ -100,13 +102,18 @@ REFERENCES "employees" ("emp_no");
 
 RD Data's Pewlett Hackard.sql…]()
 
+![PgAdmin ScreenShot](https://github.com/user-attachments/assets/c5c82080-2553-4c61-ab2d-e83b6c0111d5)
+
+![PGERD](https://github.com/user-attachments/assets/b2a0ed78-fea1-4938-8aa8-f32fed08bd1e)
 
 
 3. Data Analysis
    
-The following SQL queries were performed to answer specific questions:
+The following SQL queries were performed to answer the section of Data Analysis questions:
 
-[Uploading Final Data Ana-- 1. List the employee number, last name, first name, sex, and salary of each employee.
+
+lyst.sql…]()             [Uploading pgAdmin DA 1.sql…]()
+-- 1. List the employee number, last name, first name, sex, and salary of each employee.
 
 SELECT 
     employees.emp_no,
@@ -208,5 +215,4 @@ GROUP BY
 ORDER BY 
     frequency DESC;
 
-
-lyst.sql…]()
+                    
